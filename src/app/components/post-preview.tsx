@@ -9,7 +9,7 @@ import Image from 'next/image'
 export const PostPreview = ({ link, title, subtitle, image }: { link: string, title: string, subtitle: string, image: string }) => {
   return (
     <Link href={link}
-      className="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 hover:bg-gray-100 p-3"
+      className="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 hover:bg-gray-100 p-3 dark:hover:bg-zinc-800"
 
     >
       <div className="sm:flex">

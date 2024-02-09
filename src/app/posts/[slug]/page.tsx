@@ -25,7 +25,7 @@ const PostPage = (props: any) => {
   const post = getPostContent(slug)
   return (
     <div className='mx-auto max-w-screen-xl px-6'>
-      <article className="prose lg:prose-xl py-12">
+      <article className="prose dark:prose-invert lg:prose-xl py-12">
         <h1>
           {post.data.title}
         </h1>
