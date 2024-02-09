@@ -24,11 +24,13 @@ const PostPage = (props: any) => {
   const slug = props.params.slug
   const post = getPostContent(slug)
   return (
-    <div className='mx-auto max-w-screen-xl'>
-      <h1>
-        {post.data.title}
-      </h1>
-      <Markdown>{post.content}</Markdown>
+    <div className='mx-auto max-w-screen-xl px-6'>
+      <article className="prose lg:prose-xl py-12">
+        <h1>
+          {post.data.title}
+        </h1>
+        <Markdown>{post.content}</Markdown>
+      </article>
     </div>
   )
 }

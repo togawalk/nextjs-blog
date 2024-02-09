@@ -3,8 +3,6 @@ title: "Abbreviations"
 subtitle: ""
 ---
 
-# Abbreviations
-
 | Abbreviation | What is this                                           |
 | ------------ | ------------------------------------------------------ |
 | **AJAX**     | **A**synchronous **J**avaScript **a**nd **X**ML        |

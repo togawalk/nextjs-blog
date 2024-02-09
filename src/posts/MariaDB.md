@@ -4,6 +4,7 @@ subtitle: "How to install and use MariaDB database."
 image: "/images/sea-lion.jpg"
 ---
 
+
 ## Installation
 
 ```bash
